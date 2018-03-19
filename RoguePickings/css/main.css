@@ -1,0 +1,146 @@
+/*********** BASE STYLES ***************/
+@font-face{
+	font-family: 'Wisdom Script';
+	src: url('../fonts/wisdom-script.otf') format('opentype');
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+#top-section {
+	height: 480px;
+}
+
+#bottom-section {
+	height: 300px;
+}
+
+/*************** GRID SECTION *****************/
+.full-width {
+	width: 1200px;
+	margin: 0 auto; /* 0 on top/bottom; auto on left/right */
+}
+
+.half-width {
+	width: 600px;
+	float: left;
+}
+
+.third-width {
+	width: 315px;
+	float: left;
+	padding: 20px 40px;
+}
+
+/**************** HEADER SECTION ****************/
+header {
+	height: 100px;
+}
+
+header h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 15px 40px;
+}
+
+header h1 span {
+	color: #80aa70;
+}
+
+nav {
+	float: right;
+	padding: 25px 10px;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	text-transform: uppercase;
+	color: #80aa70;
+	font-size: 14px;
+	text-decoration: none;
+	padding-left: 10px;
+	font-weight: bold;
+}
+
+/***************** TOP SECTION ********************/
+#green-beans-img {
+	border: 1px solid #77a466;
+}
+
+#top-section h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	color: #77a466;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-top: 10px;
+}
+
+#top-section p {
+	font-size: 16px;
+	line-height: 25px;
+}
+
+/***************** BOTTOM SECTION  ******************/
+#bottom-section .third-width {
+	height: 300px;
+	border-top: 1px solid #dedbdc;
+	border-bottom: 1px solid #dedbdc;
+}
+
+#menu {
+	border-right: 1px solid #dedbdc;
+}
+
+#reviews {
+	border-right: 1px solid #dedbdc;
+}
+
+#bottom-section h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#bottom-section ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+#bottom-section ul li {
+	padding-top: 20px;
+}
+
+#bottom-section ul li a {
+	color: #92b685;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+#bottom-section p {
+	font-size: 16px;
+	line-height: 21px;
+}
+
+/****************** FOOTER ********************/
+footer {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 16px;
+	padding-top: 60px;
+}
+
+footer span {
+	color: #77a466;
+	font-family: 'Wisdom-script', cursive;
+	text-transform: lowercase;
+}
+
+
